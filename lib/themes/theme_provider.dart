@@ -20,5 +20,6 @@ class themeProvider with ChangeNotifier {
     } else {
       _themeData = lightMode;
     }
+    notifyListeners();
   }
 }
